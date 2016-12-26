@@ -1,0 +1,15 @@
+[package]
+name = "thirteen_days"
+version = "0.1.0"
+authors = ["Michael Alexander <beefsack@gmail.com>"]
+
+[dependencies]
+rand = "^0.3.14"
+brdgme-game = { path = "../game" }
+brdgme-color = { path = "../color" }
+brdgme-markup = { path = "../markup" }
+brdgme-cmd = { path = "../cmd" }
+combine = "^2.0.0"
+serde = "^0.8.10"
+serde_derive = "^0.8.10"
+
